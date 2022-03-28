@@ -314,7 +314,7 @@ Table 3: Results of action recognition of unseen animals
 
  
 ## Pose Estimation
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png)
+![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png)
 Table 5. Results of pose estimation
 <!-- |   <br>                     |                   | PCK@0\.05 |            |
 | :------------------------: | :---------------: | :-------: | :--------: |
