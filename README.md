@@ -262,7 +262,7 @@ Table 2. Results of action recognition (All video clips)
 			25.09
 </table>
 
----
+
 
 ### Collaborative Action Recognition (CARe) Model
 ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png)
