@@ -1,5 +1,5 @@
 # Animal Kingdom
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/header.png)
+![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal Kingdom header.png)
 
 This is the official repository for 
 <br/>**[[CVPR2022] Animal Kingdom: A Large and Diverse Dataset for Animal Behavior Understanding]()**
