@@ -15,7 +15,7 @@ Understanding animals' behaviors is significant for a wide range of applications
 [Download dataset here](https://forms.office.com/r/WCtC0FRWpA)
 
 ## Video Grounding
-[Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png)
+![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png)
 
 Table 4: Results of video grounding
 <!-- |        | Recall@1 |          |          |          | mean IoU |
