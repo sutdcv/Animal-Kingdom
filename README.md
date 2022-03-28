@@ -1,5 +1,5 @@
 # Animal Kingdom
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal Kingdom header.png)
+[Image]("https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png")
 
 This is the official repository for 
 <br/>**[[CVPR2022] Animal Kingdom: A Large and Diverse Dataset for Animal Behavior Understanding]()**
@@ -15,7 +15,7 @@ Understanding animals' behaviors is significant for a wide range of applications
 [Download dataset here](https://forms.office.com/r/WCtC0FRWpA)
 
 ## Video Grounding
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png)
+[Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png)
 
 Table 4: Results of video grounding
 <!-- |        | Recall@1 |          |          |          | mean IoU |
@@ -75,7 +75,7 @@ Table 4: Results of video grounding
 </table>
 
 ## Action Recognition
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png)
+[Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png)
 Table 2. Results of action recognition
 <!-- |                               | mAP     |        |        |        |
 | :---------------------------: | :------ | :----: | :----- | :----: |
@@ -314,7 +314,7 @@ Table 3: Results of action recognition of unseen animals
 
  
 ## Pose Estimation
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png)
+[Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png)
 Table 5. Results of pose estimation
 <!-- |   <br>                     |                   | PCK@0\.05 |            |
 | :------------------------: | :---------------: | :-------: | :--------: |
