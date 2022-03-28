@@ -402,8 +402,10 @@ Table 5. Results of pose estimation
 			69.96
 </table>
 
-# Contributors
-We would like to thank the following contributors for working on the annotations and conducting the quality checks for video grounding, action recognition and pose estimation. This project is supported by AI Singapore (AISG-100E-2020-065) and SUTD Startup Research Grant.
+# Acknowledgement and Contributors
+This project is supported by AI Singapore (AISG-100E-2020-065) and SUTD Startup Research Grant.
+
+We would like to thank the following contributors for working on the annotations and conducting the quality checks for video grounding, action recognition and pose estimation. 
 1.	Ang Yu Jie
 2.	Ann Mary Alen
 3.	Cheong Kah Yen Kelly
