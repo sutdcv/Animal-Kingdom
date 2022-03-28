@@ -1,7 +1,7 @@
 # Animal Kingdom
 ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png)
 
-This is the official repository for 
+This is the [official repository](https://sutdcv.github.io/Animal-Kingdom) for 
 <br/>**[[CVPR2022] Animal Kingdom: A Large and Diverse Dataset for Animal Behavior Understanding]()**
 <br/>**Xun Long Ng, Kian Eng Ong, Qichen Zheng, Yun Ni, Si Yong Yeo, Jun Liu**
 <br/>*Information Systems Technology and Design, Singapore University of Technology and Design, Singapore*
