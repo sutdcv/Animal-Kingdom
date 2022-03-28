@@ -76,7 +76,7 @@ Table 4: Results of video grounding
 
 ## Action Recognition
 ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png)
-Table 2. Results of action recognition
+Table 2. Results of action recognition (All video clips)
 <!-- |                               | mAP     |        |        |        |
 | :---------------------------: | :------ | :----: | :----- | :----: |
 | Method                        | overall | head   | middle | tail   |
@@ -262,7 +262,11 @@ Table 2. Results of action recognition
 			25.09
 </table>
 
-Table 3: Results of action recognition of unseen animals
+---
+
+### Collaborative Action Recognition (CARe) Model
+![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png)
+Table 3: Results of action recognition of unseen animals (Video clips of 1 action for CARe model)
 <!-- | Method                                 | Accuracy (\\%)      |
 | :------------------------------------: | :-----------------: |
 | Episodic-DG                            | 34\.0               |
@@ -271,6 +275,7 @@ Table 3: Results of action recognition of unseen animals
 | CARe without general feature           | 38\.2               |
 | CARe without spatially-aware weighting | 37\.1               |
 | CARe (Our full model)                  | 39\.7               | -->
+			
 <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
 		Results of action recognition of unseen animals
