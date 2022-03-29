@@ -1,6 +1,6 @@
 # Animal Kingdom
-<!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png) -->
-<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png?raw=true"></img>
+![](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png)
+<!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png?raw=true"> -->
 
 This is the [official repository](https://sutdcv.github.io/Animal-Kingdom) for 
 <br/>**[[CVPR2022] Animal Kingdom: A Large and Diverse Dataset for Animal Behavior Understanding]()**
@@ -16,8 +16,8 @@ Understanding animals' behaviors is significant for a wide range of applications
 [Download dataset here](https://forms.office.com/r/WCtC0FRWpA)
 
 ## Video Grounding
-<!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png) -->
-<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png?raw=true"></img>
+![](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png)
+<!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png?raw=true"> -->
 
 <!-- Table 4: Results of video grounding
 |        | Recall@1 |          |          |          | mean IoU |
@@ -103,8 +103,8 @@ Understanding animals' behaviors is significant for a wide range of applications
 
  
 ## Action Recognition
-<!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png) -->
-<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png?raw=true">
+![](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png)
+<!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png?raw=true"> -->
 			
 <!-- Table 2. Results of action recognition (All video clips)
 |                               | mAP     |        |        |        |
@@ -383,8 +383,8 @@ Understanding animals' behaviors is significant for a wide range of applications
 
 
 ### Collaborative Action Recognition (CARe) Model
-<!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png) -->
-<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png?raw=true"></img>
+![](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png)
+<!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png?raw=true"></img> -->
 			
 <!-- Table 3: Results of action recognition of unseen animals (Video clips of 1 action for CARe model)
 | Method                                 | Accuracy (%)        |
@@ -460,8 +460,8 @@ Understanding animals' behaviors is significant for a wide range of applications
 
  
 ## Pose Estimation
-<!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png) -->
-<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png?raw=true"></img>
+![](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png)
+<!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png?raw=true"></img> -->
 			
 <!-- Table 5. Results of pose estimation
 |   <br>                     |                   | PCK@0\.05 |            |
