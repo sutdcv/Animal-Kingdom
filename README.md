@@ -1,6 +1,6 @@
 # Animal Kingdom
 <!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png) -->
-<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png"></img>
+<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png?raw=true"></img>
 
 This is the [official repository](https://sutdcv.github.io/Animal-Kingdom) for 
 <br/>**[[CVPR2022] Animal Kingdom: A Large and Diverse Dataset for Animal Behavior Understanding]()**
@@ -17,7 +17,7 @@ Understanding animals' behaviors is significant for a wide range of applications
 
 ## Video Grounding
 <!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png) -->
-<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png"></img>
+<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png?raw=true"></img>
 
 <!-- Table 4: Results of video grounding
 |        | Recall@1 |          |          |          | mean IoU |
@@ -34,7 +34,7 @@ Understanding animals' behaviors is significant for a wide range of applications
 		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
 		</td>
 		<td colspan="4" style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			Recall@$$1$$
+			Recall@1
 		</td>
 		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
 			mean IoU
@@ -104,7 +104,7 @@ Understanding animals' behaviors is significant for a wide range of applications
  
 ## Action Recognition
 <!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png) -->
-<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png">
+<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png?raw=true">
 			
 <!-- Table 2. Results of action recognition (All video clips)
 |                               | mAP     |        |        |        |
@@ -129,75 +129,254 @@ Understanding animals' behaviors is significant for a wide range of applications
 
 <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
-		Results of video grounding
+		Results of action recognition
 	</caption>
 	<tr>
 		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
 		</td>
 		<td colspan="4" style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			Recall@$$1$$
-		</td>
-		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			mean IoU
+			mAP
 		</td>
 	</tr>
 	<tr>
 		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
 			Method
 		</td>
-		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			IoU=0.1
+		<td style="border-bottom: 1px solid black; padding-right: 3pt; padding-left: 3pt;">
+			overall
 		</td>
 		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			IoU=0.3
+			head
+		</td>
+		<td style="border-bottom: 1px solid black; padding-right: 3pt; padding-left: 3pt;">
+			middle
 		</td>
 		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			IoU=0.5
+			tail
 		</td>
-		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			IoU=0.7
-		</td>
-		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
+	</tr>
+	<tr>
+		<td colspan="5" style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			Baseline (Cross Entropy Loss)
 		</td>
 	</tr>
 	<tr>
 		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			LGI
+			I3D
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			16.48
 		</td>
 		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			50.84
+			46.39
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			20.68
 		</td>
 		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			33.51
+			12.28
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			SlowFast
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			20.46
 		</td>
 		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			19.74
+			54.52
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			27.68
 		</td>
 		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			8.94
+			15.07
+		</td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			X3D
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			25.25
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			60.33
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			36.19
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			18.83
+		</td>
+	</tr>
+	<tr>
+		<td colspan="5" style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			Focal Loss
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			I3D
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			26.49
 		</td>
 		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			22.90
+			64.72
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			40.18
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			19.07
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			SlowFast
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			24.74
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			60.72
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			34.59
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			18.51
+		</td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			X3D
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			28.85
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			64.44
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			39.72
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			22.41
+		</td>
+	</tr>
+	<tr>
+		<td colspan="5" style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			LDAM-DRW
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			I3D
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			22.40
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			53.26
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			27.73
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			17.82
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			SlowFast
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			22.65
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			50.02
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			29.23
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			17.61
+		</td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			X3D
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			30.54
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			62.46
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); padding-right: 3pt; padding-left: 3pt;">
+			39.48
+		</td>
+		<td style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			24.96
+		</td>
+	</tr>
+	<tr>
+		<td colspan="5" style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			EQL
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			I3D
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			24.85
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			60.63
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			35.36
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			18.47
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			SlowFast
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			24.41
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			59.70
+		</td>
+		<td style="padding-right: 3pt; padding-left: 3pt;">
+			34.99
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			18.07
 		</td>
 	</tr>
 	<tr>
 		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			VSLNet
+			X3D
+		</td>
+		<td style="border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
+			30.55
 		</td>
 		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			53.59
+			63.33
+		</td>
+		<td style="border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
+			38.62
 		</td>
 		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			33.74
-		</td>
-		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			20.83
-		</td>
-		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			12.22
-		</td>
-		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			25.02
+			25.09
 		</td>
 	</tr>
 </table>
@@ -205,7 +384,7 @@ Understanding animals' behaviors is significant for a wide range of applications
 
 ### Collaborative Action Recognition (CARe) Model
 <!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png) -->
-<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png"></img>
+<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png?raw=true"></img>
 			
 <!-- Table 3: Results of action recognition of unseen animals (Video clips of 1 action for CARe model)
 | Method                                 | Accuracy (%)        |
@@ -282,7 +461,7 @@ Understanding animals' behaviors is significant for a wide range of applications
  
 ## Pose Estimation
 <!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png) -->
-<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png"></img>
+<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png?raw=true"></img>
 			
 <!-- Table 5. Results of pose estimation
 |   <br>                     |                   | PCK@0\.05 |            |
