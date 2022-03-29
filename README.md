@@ -1,5 +1,6 @@
 # Animal Kingdom
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png)
+<!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png) -->
+<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png">
 
 This is the [official repository](https://sutdcv.github.io/Animal-Kingdom) for 
 <br/>**[[CVPR2022] Animal Kingdom: A Large and Diverse Dataset for Animal Behavior Understanding]()**
@@ -15,16 +16,17 @@ Understanding animals' behaviors is significant for a wide range of applications
 [Download dataset here](https://forms.office.com/r/WCtC0FRWpA)
 
 ## Video Grounding
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png)
+<!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png) -->
+<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png">
 
-Table 4: Results of video grounding
+<!-- Table 4: Results of video grounding
 |        | Recall@1 |          |          |          | mean IoU |
 | :----: | :------: | :------: | :------: | :------: | :------: |
 | Method | IoU=0\.1 | IoU=0\.3 | IoU=0\.5 | IoU=0\.7 |          |
 | LGI    | 50\.84   | 33\.51   | 19\.74   | 8\.94    | 22\.90   |
-| VSLNet | 53\.59   | 33\.74   | 20\.83   | 12\.22   | 25\.02   |
+| VSLNet | 53\.59   | 33\.74   | 20\.83   | 12\.22   | 25\.02   | -->
 
-<!-- <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
+<table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
 		Results of video grounding
 	</caption>
@@ -73,11 +75,13 @@ Table 4: Results of video grounding
 		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
 			25.02
 </table>
- -->
+
  
 ## Action Recognition
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png)
-Table 2. Results of action recognition (All video clips)
+<!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png) -->
+<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png">
+			
+<!-- Table 2. Results of action recognition (All video clips)
 |                               | mAP     |        |        |        |
 | :---------------------------: | :------ | :----: | :----- | :----: |
 | Method                        | overall | head   | middle | tail   |
@@ -96,9 +100,9 @@ Table 2. Results of action recognition (All video clips)
 | EQL                           |         |        |        |        |
 | I3D                           | 24\.85  | 60\.63 | 35\.36 | 18\.47 |
 | SlowFast                      | 24\.41  | 59\.70 | 34\.99 | 18\.07 |
-| X3D                           | 30\.55  | 63\.33 | 38\.62 | 25\.09 |
+| X3D                           | 30\.55  | 63\.33 | 38\.62 | 25\.09 | -->
 
-<!-- <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
+<table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
 		Results of action recognition
 	</caption>
@@ -261,23 +265,25 @@ Table 2. Results of action recognition (All video clips)
 			38.62
 		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
 			25.09
-</table> -->
+</table>
 
 
 
 ### Collaborative Action Recognition (CARe) Model
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png)
-Table 3: Results of action recognition of unseen animals (Video clips of 1 action for CARe model)
-| Method                                 | Accuracy (\\%)      |
+<!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png) -->
+<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/arch.png">
+			
+<!-- Table 3: Results of action recognition of unseen animals (Video clips of 1 action for CARe model)
+| Method                                 | Accuracy (%)        |
 | :------------------------------------: | :-----------------: |
 | Episodic-DG                            | 34\.0               |
 | Mixup                                  | 36\.2               |
 | CARe without specific feature          | 27\.3               |
 | CARe without general feature           | 38\.2               |
 | CARe without spatially-aware weighting | 37\.1               |
-| CARe (Our full model)                  | 39\.7               |
+| CARe (Our full model)                  | 39\.7               | -->
 			
-<!-- <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
+<table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
 		Results of action recognition of unseen animals
 	</caption>
@@ -316,12 +322,14 @@ Table 3: Results of action recognition of unseen animals (Video clips of 1 actio
 			CARe (Our full model)
 		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
 			39.7
-</table> -->
+</table>
 
  
 ## Pose Estimation
-![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png)
-Table 5. Results of pose estimation
+<!-- ![Image](https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png) -->
+<img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_pe.png">
+			
+<!-- Table 5. Results of pose estimation
 |   <br>                     |                   | PCK@0\.05 |            |
 | :------------------------: | :---------------: | :-------: | :--------: |
 | Protocol                   | Description       | HRNet     | HRNet-DARK |
@@ -331,9 +339,9 @@ Table 5. Results of pose estimation
 |                            | Amphibians        | 56\.74    | 57\.85     |
 |                            | Reptiles          | 56\.06    | 57\.06     |
 |                            | Birds             | 77\.35    | 77\.41     |
-|                            | Fishes            | 68\.25    | 69\.96     |
+|                            | Fishes            | 68\.25    | 69\.96     | -->
 
-<!-- <table style="border-collapse: collapse; border: none; border-spacing: 0px;">
+<table style="border-collapse: collapse; border: none; border-spacing: 0px;">
 	<caption>
 		Results of pose estimation
 	</caption>
@@ -407,7 +415,7 @@ Table 5. Results of pose estimation
 			68.25
 		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
 			69.96
-</table> -->
+</table>
 
 # Acknowledgement and Contributors
 This project is supported by AI Singapore (AISG-100E-2020-065) and SUTD Startup Research Grant.
