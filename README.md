@@ -592,7 +592,7 @@ Understanding animals' behaviors is significant for a wide range of applications
 </table>
 
 # Acknowledgement and Contributors
-This project is supported by AI Singapore (AISG-100E-2020-065) and SUTD Startup Research Grant.
+This project is supported by AI Singapore (AISG-100E-2020-065), National Research Foundation Singapore, and SUTD Startup Research Grant.
 
 We would like to thank the following contributors for working on the annotations and conducting the quality checks for video grounding, action recognition and pose estimation. 
 1.	Ang Yu Jie
