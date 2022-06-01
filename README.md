@@ -15,6 +15,14 @@ Understanding animals' behaviors is significant for a wide range of applications
 # Dataset
 [Download dataset here](https://forms.office.com/r/WCtC0FRWpA)
 
+## README
+Please read the respective README files for more information about preparing the dataset for the respective tasks.
+* [Overview of dataset](README/README.md)
+* [Action Recognition](README/README_action_recognition.md)
+* [Pose Estimation](README/README_pose_estimation.md)
+* [Video Grounding](README/README_video_grounding.md)
+
+
 ## Video Grounding
 ![](image/eg_vg.png)
 <!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png?raw=true"> -->
