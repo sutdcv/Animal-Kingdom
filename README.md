@@ -34,13 +34,13 @@ Understanding animals' behaviors is significant for a wide range of applications
 # Dataset
 [Download dataset here](https://forms.office.com/r/WCtC0FRWpA)
 
-## README
+<!-- ## README
 Please read the respective README files for more information about preparing the dataset for the respective tasks.
 * [Overview of dataset](README/README.md)
 * [Meta-data: Action Description, List of animal and classification](README/AR_metadata.xlsx)
 * [Action Recognition](README/README_action_recognition.md)
 * [Pose Estimation](README/README_pose_estimation.md)
-* [Video Grounding](README/README_video_grounding.md)
+* [Video Grounding](README/README_video_grounding.md) -->
 
 
 ## Video Grounding
