@@ -8,6 +8,7 @@ This is the official repository for <br/>**[[CVPR2022] Animal Kingdom: A Large a
 
 ### Note:
 The code of the models for all tasks has been released. Codes are included in the folder of the dataset. After you download our dataset, you can find the corresponding codes for each task.
+[Download dataset here](https://forms.office.com/r/WCtC0FRWpA)
 
 
 ## Abstract
