@@ -1,6 +1,8 @@
 # [Animal Kingdom](https://sutdcv.github.io/Animal-Kingdom)
+
 ```diff
-- Note: the code of the models for all tasks has been released. Codes are included in the folder of the dataset. After you download our dataset, you can find the corresponding codes for each task.
+- Note: The code of the models for all tasks has been released. Codes are included in the folder of the dataset. After 
+- you download our dataset, you can find the corresponding codes for each task.
 ```
 
 ![](image/Animal_Kingdom_header.png)
