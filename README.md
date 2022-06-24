@@ -128,13 +128,10 @@ Please read the respective README files for more information about preparing the
 
  
 ## Action Recognition
+https://user-images.githubusercontent.com/53943133/175666708-37bb443e-e9e0-4685-b0ca-3bf3c8ac84c8.mp4
+
 ![](image/eg_ar.png)
-![](image/eg_ar.mp4)
 <!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png?raw=true"> -->
-			
-<video width="320" height="240" controls>
-  <source src="image/eg_ar.mp4" type="video/mp4">
-</video>
 
 <!-- Table 2. Results of action recognition (All video clips)
 |                               | mAP     |        |        |        |
