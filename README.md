@@ -127,13 +127,22 @@ Please read the respective README files for more information about preparing the
 
  
 ## Action Recognition
-<!-- ![](image/eg_ar.png) -->
+![](image/eg_ar.png)
 ![](image/eg_ar.mp4)
 <!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png?raw=true"> -->
 			
 <video width="320" height="240" controls>
   <source src="image/eg_ar.mp4" type="video/mp4">
 </video>
+
+<iframe width="640" 
+		height="360" 
+		src="image/eg_ar.mp4" 
+		title="Action Recognition" 
+		frameborder="0" 
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+		allowfullscreen>
+</iframe>
 
 <!-- Table 2. Results of action recognition (All video clips)
 |                               | mAP     |        |        |        |
