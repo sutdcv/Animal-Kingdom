@@ -28,7 +28,7 @@ If you find X3D useful for your research, please consider citing the paper using
 ```BibTeX
 @inproceedings{x3d2020,
   Author    = {Christoph Feichtenhofer},
-  Title     = {{X3D}: Progressive Network Expansion for Efficient Video Recognition},
+  Title     = {X3D: Progressive Network Expansion for Efficient Video Recognition},
   Booktitle = {{CVPR}},
   Year      = {2020}}
 ```

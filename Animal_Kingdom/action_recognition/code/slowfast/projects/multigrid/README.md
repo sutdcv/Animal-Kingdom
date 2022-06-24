@@ -34,7 +34,7 @@ If you use multigrid training or the models from MODEL_ZOO in your research, ple
 @inproceedings{multigrid2020,
   Author    = {Chao-Yuan Wu and Ross Girshick and Kaiming He and Christoph Feichtenhofer
                and Philipp Kr\"{a}henb\"{u}hl},
-  Title     = {{A Multigrid Method for Efficiently Training Video Models}},
+  Title     = {A Multigrid Method for Efficiently Training Video Models},
   Booktitle = {{CVPR}},
   Year      = {2020}}
 ```
