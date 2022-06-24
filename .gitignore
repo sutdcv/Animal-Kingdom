@@ -1,0 +1,6 @@
+
+Animal_Kingdom/action_recognition/annotation/train.csv
+Animal_Kingdom/pose_estimation/code/cocoapi/
+Animal_Kingdom/pose_estimation/code/hrnet/
+Animal_Kingdom/pose_estimation/code/mmpose/
+Animal_Kingdom/video_grounding/code/vsl/
