@@ -1,0 +1,8 @@
+python prepare/extract_ak.py \
+--load_model data/rgb_charades.pt \
+--video_dir ../../dataset/ \
+--dataset_dir ../../annotation/ \
+--images_dir ../../image \
+--save_dir ../../feat \
+--fps 24 \
+--strides 24 
