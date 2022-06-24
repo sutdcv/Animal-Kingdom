@@ -7,7 +7,8 @@ This is the official repository for <br/>**[[CVPR2022] Animal Kingdom: A Large a
 <br/>*Information Systems Technology and Design, Singapore University of Technology and Design, Singapore*
 
 # Dataset and Code
-**## Note: The codes of the models for all tasks have been released. Codes are included in the folder of the dataset. After you download our dataset, you can find the corresponding codes for each task.**
+**NOTE: The codes of the models for all tasks have been released. Codes are included in the folder of the dataset. After you download our dataset, you can find the corresponding codes for each task.**
+
 **[Download dataset and code here](https://forms.office.com/r/WCtC0FRWpA)**
 
 # Paper
@@ -134,15 +135,6 @@ Please read the respective README files for more information about preparing the
 <video width="320" height="240" controls>
   <source src="image/eg_ar.mp4" type="video/mp4">
 </video>
-
-<iframe width="640" 
-		height="360" 
-		src="image/eg_ar.mp4" 
-		title="Action Recognition" 
-		frameborder="0" 
-		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-		allowfullscreen>
-</iframe>
 
 <!-- Table 2. Results of action recognition (All video clips)
 |                               | mAP     |        |        |        |
