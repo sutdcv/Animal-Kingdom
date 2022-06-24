@@ -2,20 +2,16 @@
 
 ![](image/Animal_Kingdom_header.png)
 <!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png?raw=true"> -->
-This is the official repository for <br/>**[[CVPR2022] Animal Kingdom: A Large and Diverse Dataset for Animal Behavior Understanding]()**
+This is the official repository for <br/>**[[CVPR2022] Animal Kingdom: A Large and Diverse Dataset for Animal Behavior Understanding](https://openaccess.thecvf.com/content/CVPR2022/html/Ng_Animal_Kingdom_A_Large_and_Diverse_Dataset_for_Animal_Behavior_CVPR_2022_paper.html)**
 <br/>**Xun Long Ng, Kian Eng Ong, Qichen Zheng, Yun Ni, Si Yong Yeo, Jun Liu**
 <br/>*Information Systems Technology and Design, Singapore University of Technology and Design, Singapore*
 
-## Note: The code of the models for all tasks has been released. Codes are included in the folder of the dataset. After you download our dataset, you can find the corresponding codes for each task.
-
-[Download dataset here](https://forms.office.com/r/WCtC0FRWpA)
-
-
-## Abstract
-Understanding animals' behaviors is significant for a wide range of applications. However, existing animal behavior datasets have limitations in multiple aspects, including limited numbers of animal classes, data samples and provided tasks, and also limited variations in environmental conditions and viewpoints. To address these limitations, we create a large and diverse dataset, Animal Kingdom, that provides multiple annotated tasks to enable a more thorough understanding of natural animal behaviors. The wild animal footages used in our dataset record different times of the day in extensive range of environments containing variations in backgrounds, viewpoints, illumination and weather conditions. More specifically, our dataset contains 50 hours of annotated videos to localize relevant animal behavior segments in long videos for the video grounding task, 30K video sequences for the fine-grained multi-label action recognition task, and 33K frames for the pose estimation task, which correspond to a diverse range of animals with 850 species across 6 major animal classes. Such a challenging and comprehensive dataset shall be able to facilitate the community to develop, adapt, and evaluate various types of advanced methods for animal behavior analysis. Moreover, we propose a Collaborative Action Recognition (CARe) model that learns general and specific features for action recognition with unseen new animals. This method achieves promising performance in our experiments.
+# Dataset and Code
+**## Note: The codes of the models for all tasks have been released. Codes are included in the folder of the dataset. After you download our dataset, you can find the corresponding codes for each task.**
+**[Download dataset and code here](https://forms.office.com/r/WCtC0FRWpA)**
 
 # Paper
-* [CVPR 2022](https://openaccess.thecvf.com/content/CVPR2022/html/Ng_Animal_Kingdom_A_Large_and_Diverse_Dataset_for_Animal_Behavior_CVPR_2022_paper.html)
+* [CVPR2022](https://openaccess.thecvf.com/content/CVPR2022/html/Ng_Animal_Kingdom_A_Large_and_Diverse_Dataset_for_Animal_Behavior_CVPR_2022_paper.html)
 * [ResearchGate](https://www.researchgate.net/publication/359816954_Animal_Kingdom_A_Large_and_Diverse_Dataset_for_Animal_Behavior_Understanding)
 * [arXiv](https://arxiv.org/abs/2204.08129)
 
@@ -32,8 +28,8 @@ Understanding animals' behaviors is significant for a wide range of applications
  }
  ```
 
-# Dataset
-[Download dataset here](https://forms.office.com/r/WCtC0FRWpA)
+## Abstract
+Understanding animals' behaviors is significant for a wide range of applications. However, existing animal behavior datasets have limitations in multiple aspects, including limited numbers of animal classes, data samples and provided tasks, and also limited variations in environmental conditions and viewpoints. To address these limitations, we create a large and diverse dataset, Animal Kingdom, that provides multiple annotated tasks to enable a more thorough understanding of natural animal behaviors. The wild animal footages used in our dataset record different times of the day in extensive range of environments containing variations in backgrounds, viewpoints, illumination and weather conditions. More specifically, our dataset contains 50 hours of annotated videos to localize relevant animal behavior segments in long videos for the video grounding task, 30K video sequences for the fine-grained multi-label action recognition task, and 33K frames for the pose estimation task, which correspond to a diverse range of animals with 850 species across 6 major animal classes. Such a challenging and comprehensive dataset shall be able to facilitate the community to develop, adapt, and evaluate various types of advanced methods for animal behavior analysis. Moreover, we propose a Collaborative Action Recognition (CARe) model that learns general and specific features for action recognition with unseen new animals. This method achieves promising performance in our experiments.
 
 <!-- ## README
 Please read the respective README files for more information about preparing the dataset for the respective tasks.
@@ -42,7 +38,6 @@ Please read the respective README files for more information about preparing the
 * [Action Recognition](README/README_action_recognition.md)
 * [Pose Estimation](README/README_pose_estimation.md)
 * [Video Grounding](README/README_video_grounding.md) -->
-
 
 ## Video Grounding
 ![](image/eg_vg.png)
@@ -132,9 +127,14 @@ Please read the respective README files for more information about preparing the
 
  
 ## Action Recognition
-![](image/eg_ar.png)
+<!-- ![](image/eg_ar.png) -->
+![](image/eg_ar.mp4)
 <!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png?raw=true"> -->
 			
+<video width="320" height="240" controls>
+  <source src="image/eg_ar.mp4" type="video/mp4">
+</video>
+
 <!-- Table 2. Results of action recognition (All video clips)
 |                               | mAP     |        |        |        |
 | :---------------------------: | :------ | :----: | :----- | :----: |
