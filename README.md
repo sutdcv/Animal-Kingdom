@@ -6,10 +6,20 @@ This is the official repository for <br/>**[[CVPR2022] Animal Kingdom: A Large a
 <br/>**Xun Long NG, Kian Eng ONG, Qichen ZHENG, Yun NI, Si Yong YEO, Jun LIU**
 <br/>*Information Systems Technology and Design, Singapore University of Technology and Design, Singapore*
 
-# Dataset and Code
-**NOTE: The codes of the models for all tasks have been released. Codes are included in the folder of the dataset. After you download our dataset, you can find the corresponding codes for each task. Helper scripts are provided to automatically set up the environment to directly run our dataset.**
+# [Dataset and Codes](https://forms.office.com/r/WCtC0FRWpA)
+**[Download dataset and codes here](https://forms.office.com/r/WCtC0FRWpA)**
 
-**[Download dataset and code here](https://forms.office.com/r/WCtC0FRWpA)**
+**NOTE: The codes of the models for all tasks have been released. Codes are included in the folder of the dataset. After you download our dataset, you can find the corresponding codes for each task. Helper scripts are provided to automatically set up the environment to directly run our dataset. The [Animal_Kingdom](Animal_Kingdom) GitHub codes are the same as the codes in the download version, hence there is no need to download the GitHub codes.**
+
+
+## README
+Please read the respective README files in [Animal_Kingdom](Animal_Kingdom) for more information about preparing the dataset for the respective tasks.
+* [Overview of dataset](Animal_Kingdom/README.md)
+* [Meta-data: 140 Action Description, List of >850 animals and classification](Animal_Kingdom/action_recognition/AR_metadata.xlsx)
+* [Action Recognition](Animal_Kingdom/action_recognition/README_action_recognition.md)
+* [Pose Estimation](Animal_Kingdom/pose_estimation/README_pose_estimation.md)
+* [Video Grounding](Animal_Kingdom/video_grounding/README_video_grounding.md)
+
 
 # Paper
 * [CVPR2022](https://openaccess.thecvf.com/content/CVPR2022/html/Ng_Animal_Kingdom_A_Large_and_Diverse_Dataset_for_Animal_Behavior_CVPR_2022_paper.html)
@@ -31,100 +41,6 @@ This is the official repository for <br/>**[[CVPR2022] Animal Kingdom: A Large a
 
 ## Abstract
 Understanding animals' behaviors is significant for a wide range of applications. However, existing animal behavior datasets have limitations in multiple aspects, including limited numbers of animal classes, data samples and provided tasks, and also limited variations in environmental conditions and viewpoints. To address these limitations, we create a large and diverse dataset, Animal Kingdom, that provides multiple annotated tasks to enable a more thorough understanding of natural animal behaviors. The wild animal footages used in our dataset record different times of the day in extensive range of environments containing variations in backgrounds, viewpoints, illumination and weather conditions. More specifically, our dataset contains 50 hours of annotated videos to localize relevant animal behavior segments in long videos for the video grounding task, 30K video sequences for the fine-grained multi-label action recognition task, and 33K frames for the pose estimation task, which correspond to a diverse range of animals with 850 species across 6 major animal classes. Such a challenging and comprehensive dataset shall be able to facilitate the community to develop, adapt, and evaluate various types of advanced methods for animal behavior analysis. Moreover, we propose a Collaborative Action Recognition (CARe) model that learns general and specific features for action recognition with unseen new animals. This method achieves promising performance in our experiments.
-
-<!-- ## README
-Please read the respective README files for more information about preparing the dataset for the respective tasks.
-* [Overview of dataset](README/README.md)
-* [Meta-data: Action Description, List of animal and classification](README/AR_metadata.xlsx)
-* [Action Recognition](README/README_action_recognition.md)
-* [Pose Estimation](README/README_pose_estimation.md)
-* [Video Grounding](README/README_video_grounding.md) -->
-
-## Video Grounding
-![](image/eg_vg.png)
-<!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png?raw=true"> -->
-
-<!-- Table 4: Results of video grounding
-|        | Recall@1 |          |          |          | mean IoU |
-| :----: | :------: | :------: | :------: | :------: | :------: |
-| Method | IoU=0\.1 | IoU=0\.3 | IoU=0\.5 | IoU=0\.7 |          |
-| LGI    | 50\.84   | 33\.51   | 19\.74   | 8\.94    | 22\.90   |
-| VSLNet | 53\.59   | 33\.74   | 20\.83   | 12\.22   | 25\.02   | -->
-
-<table style="border-collapse: collapse; border: none; border-spacing: 0px;">
-	<caption>
-		Results of video grounding
-	</caption>
-	<tr>
-		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-		</td>
-		<td colspan="4" style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			Recall@1
-		</td>
-		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			mean IoU
-		</td>
-	</tr>
-	<tr>
-		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			Method
-		</td>
-		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			IoU=0.1
-		</td>
-		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			IoU=0.3
-		</td>
-		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			IoU=0.5
-		</td>
-		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			IoU=0.7
-		</td>
-		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
-		</td>
-	</tr>
-	<tr>
-		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			LGI
-		</td>
-		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			50.84
-		</td>
-		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			33.51
-		</td>
-		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			19.74
-		</td>
-		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			8.94
-		</td>
-		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
-			22.90
-		</td>
-	</tr>
-	<tr>
-		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			VSLNet
-		</td>
-		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			53.59
-		</td>
-		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			33.74
-		</td>
-		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			20.83
-		</td>
-		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			12.22
-		</td>
-		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
-			25.02
-		</td>
-	</tr>
-</table>
 
  
 ## Action Recognition
@@ -617,6 +533,94 @@ Please read the respective README files for more information about preparing the
 		</td>
 	</tr>
 </table>
+
+
+## Video Grounding
+![](image/eg_vg.png)
+<!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_vg.png?raw=true"> -->
+
+<!-- Table 4: Results of video grounding
+|        | Recall@1 |          |          |          | mean IoU |
+| :----: | :------: | :------: | :------: | :------: | :------: |
+| Method | IoU=0\.1 | IoU=0\.3 | IoU=0\.5 | IoU=0\.7 |          |
+| LGI    | 50\.84   | 33\.51   | 19\.74   | 8\.94    | 22\.90   |
+| VSLNet | 53\.59   | 33\.74   | 20\.83   | 12\.22   | 25\.02   | -->
+
+<table style="border-collapse: collapse; border: none; border-spacing: 0px;">
+	<caption>
+		Results of video grounding
+	</caption>
+	<tr>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+		</td>
+		<td colspan="4" style="border-bottom: 0px solid rgb(0, 0, 0); text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			Recall@1
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			mean IoU
+		</td>
+	</tr>
+	<tr>
+		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			Method
+		</td>
+		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			IoU=0.1
+		</td>
+		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			IoU=0.3
+		</td>
+		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			IoU=0.5
+		</td>
+		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			IoU=0.7
+		</td>
+		<td style="border-bottom: 1px solid black; text-align: center; padding-right: 3pt; padding-left: 3pt;">
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			LGI
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			50.84
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			33.51
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			19.74
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			8.94
+		</td>
+		<td style="text-align: center; padding-right: 3pt; padding-left: 3pt;">
+			22.90
+		</td>
+	</tr>
+	<tr>
+		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
+			VSLNet
+		</td>
+		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
+			53.59
+		</td>
+		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
+			33.74
+		</td>
+		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
+			20.83
+		</td>
+		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
+			12.22
+		</td>
+		<td style="text-align: center; border-bottom: 2px solid black; padding-right: 3pt; padding-left: 3pt;">
+			25.02
+		</td>
+	</tr>
+</table>
+
 
 # Acknowledgement and Contributors
 This project is supported by AI Singapore (AISG-100E-2020-065), National Research Foundation Singapore, and SUTD Startup Research Grant.
