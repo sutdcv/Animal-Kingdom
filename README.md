@@ -44,9 +44,7 @@ Understanding animals' behaviors is significant for a wide range of applications
 
  
 ## Action Recognition
-<!-- <video src="https://user-images.githubusercontent.com/53943133/175666708-37bb443e-e9e0-4685-b0ca-3bf3c8ac84c8.mp4" height="200px"></video> -->
-![](image/eg_ar.mp4)
-
+<video autoplay src="https://user-images.githubusercontent.com/53943133/175767660-f084c5f5-879e-4bf4-ae85-1348545fd5c4.mp4" width="600px"></video>
 
 ![](image/eg_ar.png)
 <!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/eg_ar.png?raw=true"> -->
