@@ -1,5 +1,8 @@
 # Video Grounding
 
+## Dataset and Code
+* [Download dataset and code here](https://forms.office.com/r/WCtC0FRWpA)
+
 ## Structure of Video Grounding Dataset
 * Annotations are stored in .txt format 
 * Annotations:
