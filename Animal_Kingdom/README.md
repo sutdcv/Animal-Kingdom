@@ -5,7 +5,7 @@
 ## Reading README files
 The README files can be opened using any text editor. Alternatively, rename .md to .txt to view the contents.
 
-## Dataset
+## Dataset and Code
 Download the dataset and code from <https://sutdcv.github.io/Animal-Kingdom>
 
 ### File size of dataset (~80GB in total)
