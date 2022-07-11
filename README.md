@@ -621,27 +621,28 @@ Understanding animals' behaviors is significant for a wide range of applications
 	</tr>
 </table>
 
-
 # Acknowledgement and Contributors
+
 This project is supported by AI Singapore (AISG-100E-2020-065), National Research Foundation Singapore, and SUTD Startup Research Grant.
 
-We would like to thank the following contributors for working on the annotations and conducting the quality checks for video grounding, action recognition and pose estimation. 
-1.	Ang Yu Jie
-2.	Ann Mary Alen
-3.	Cheong Kah Yen Kelly
-4.	Foo Lin Geng
-5.	Gong Jia
-6.	Heng Jia Ming
-7.	Javier Heng Tze Jian
-8.	Javin Eng Hee Pin
-9.	Jignesh Sanjay Motwani
-10.	Li Meixuan
-11.	Li Tianjiao
-12.	Liang Junyi
-13.	Loy Xing Jun
-14.	Nicholas Gandhi Peradidjaya
-15.	Song Xulin
-16.	Tian Shengjing
-17.	Wang Yanbao
-18.	Xiang Siqi
-19.	Xu Li
+We would like to thank the following contributors for working on the annotations and conducting the quality checks for video grounding, action recognition and pose estimation.
+
+-   Ang Yu Jie
+-   Ann Mary Alen
+-   Cheong Kah Yen Kelly
+-   Foo Lin Geng
+-   Gong Jia
+-   Heng Jia Ming
+-   Javier Heng Tze Jian
+-   Javin Eng Hee Pin
+-   Jignesh Sanjay Motwani
+-   Li Meixuan
+-   Li Tianjiao
+-   Liang Junyi
+-   Loy Xing Jun
+-   Nicholas Gandhi Peradidjaya
+-   Song Xulin
+-   Tian Shengjing
+-   Wang Yanbao
+-   Xiang Siqi
+-   Xu Li
