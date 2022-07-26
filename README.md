@@ -1,4 +1,4 @@
-# [Animal Kingdom](https://sutdcv.github.io/Animal-Kingdom)
+# [Animal Kingdom Dataset](https://sutdcv.github.io/Animal-Kingdom)
 
 ![](image/Animal_Kingdom_header.png)
 <!-- <img src="https://github.com/SUTDCV/Animal-Kingdom/blob/master/image/Animal_Kingdom_header.png?raw=true"> -->
