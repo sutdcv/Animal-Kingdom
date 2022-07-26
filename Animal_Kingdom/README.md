@@ -1,4 +1,4 @@
-# Animal Kingdom
+# Animal Kingdom Dataset
 
 # Instructions for using the Animal Kingdom Dataset
 
