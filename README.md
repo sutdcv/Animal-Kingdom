@@ -6,6 +6,9 @@ This is the official repository for <br/>**[[CVPR2022] Animal Kingdom: A Large a
 <br/>**Xun Long NG, Kian Eng ONG, Qichen ZHENG, Yun NI, Si Yong YEO, Jun LIU**
 <br/>*Information Systems Technology and Design, Singapore University of Technology and Design, Singapore*
 
+**[NEW - 06 Feb 2024] We are organizing the 2024 ICME Grand Challenge: Multi-Modal Video Reasoning and Analyzing Competition (MMVRAC) based on this dataset. The Grand Challenge starts on 06 Feb 2024 and will end on 25 March 2024.**
+**More details can be found at [https://sutdcv.github.io/MMVRAC](https://sutdcv.github.io/MMVRAC)**
+
 # [Dataset and Codes](https://forms.office.com/r/WCtC0FRWpA)
 **[Download dataset and codes here](https://forms.office.com/r/WCtC0FRWpA)**
 
